@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Workspace/CocaCola/mslearn-mlops/mlruns/0/69f759b55c9c433fb95d8d5286543a2d/artifacts
+end_time: 1715802620087
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 69f759b55c9c433fb95d8d5286543a2d
+run_uuid: 69f759b55c9c433fb95d8d5286543a2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715802584718
+status: 3
+tags: []
+user_id: Andre Ballard
