@@ -9,6 +9,6 @@ inputs:
     path: https://rgml1973374083.blob.core.windows.net/azureml-blobstore-13fea347-00e1-4825-b166-b83f23a70f86/LocalUpload/a01a5b9f954664cdfd935246b25e7f69/diabetes-prod.csv?sp=r&st=2024-05-16T17:47:16Z&se=2024-05-17T01:47:16Z&spr=https&sv=2022-11-02&sr=b&sig=%2FOUh%2FxCrtgV4wCVpW8GVojs70pUcpikMdowFgZz0L%2B4%3D
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
-compute: azureml:andrballard1
+compute: azureml:andrballard2
 experiment_name: diabetes-data-example
 description: Train a classification model on diabetes data using a registered dataset as input.
