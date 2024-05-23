@@ -22,7 +22,8 @@ def main(args):
     X_train, X_test, y_train, y_test = split_data(df)
 
     # train model
-    train_model(args.reg_rate, X_train, X_test, y_train, y_test)
+    with mlflow.start_run():
+        train_model(args.reg_rate, X_train, X_test, y_train, y_test)
 
 
 def split_data(df):
